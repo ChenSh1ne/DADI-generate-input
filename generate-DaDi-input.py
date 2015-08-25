@@ -23,8 +23,8 @@ parser.add_argument('-in_vcf',\
     default='snv.vcf')
 parser.add_argument('-synt',\
     help="File with synteny fragments beetwen reference and outgroup genome",\
-	type=str,\
-	default='query_list.txt')
+    type=str,\
+    default='query_list.txt')
 
 args = parser.parse_args()
 
