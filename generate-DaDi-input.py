@@ -27,21 +27,21 @@ parser.add_argument('-pop_two',\
     required=True,
     nargs='+')
 parser.add_argument('-out_file',\
-	help="Name of output file",
-	type=str,
-	required=True)
+    help="Name of output file",
+    type=str,
+    required=True)
 parser.add_argument('-pop_one_name',\
-	type=str,\
-	default='population_one')
+    type=str,\
+    default='population_one')
 parser.add_argument('-pop_two_name',\
-	type=str,\
-	default='population_two')
+    type=str,\
+    default='population_two')
 parser.add_argument('-ref_name',\
-	type=str,\
-	default='REF')
+    type=str,\
+    default='REF')
 parser.add_argument('-anc_name',\
-	type=str,\
-	default='ANC')
+    type=str,\
+    default='ANC')
 
 args = parser.parse_args()
 
