@@ -58,7 +58,7 @@ def count_alleles(pop, vcf_record):
     	    alt += 1
         else:
             ref += 1
-        if a2 == '0':
+        if a2 == '1':
     	    alt += 1
         else:
             ref += 1
